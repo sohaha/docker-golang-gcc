@@ -9,7 +9,7 @@ This image is available on [Docker Hub](https://hub.docker.com/r/seekwe/golang-g
 
 ```bash
 # go mod vendor
-docker run --rm -it -v $(pwd):/go/src/dev -w /go/src/dev --name go-dev seekwe/golang-gcc sh -c 'GO111MODULE=on GOOS=windows GOARCH=386 go build -ldflags "-s -w" -mod=vendor -o app.exe'
+docker run --rm -it -v $(pwd):/go/src/dev -w /go/src/dev --name go-dev seekwe/golang-gcc:latest sh -c 'GO111MODULE=on GOOS=windows GOARCH=386 go build -ldflags "-s -w" -mod=vendor -o app.exe'
 
 ```
 
