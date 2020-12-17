@@ -25,4 +25,5 @@ docker run --rm -it -v $(pwd):/go/src/dev -w /go/src/dev --name go-dev seekwe/go
 | 1.12-alpine | Based on Golang 1.12 (Alpine)
 | 1.13-alpine | Based on Golang 1.13 (Alpine)
 | 1.14-alpine | Based on Golang 1.14 (Alpine)
+| 1.15-alpine | Based on Golang 1.15 (Alpine)
 | latest      | Same as 1.14-alpine
